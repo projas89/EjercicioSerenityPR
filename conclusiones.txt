@@ -1,0 +1,6 @@
+CONCLUSIONES - PRUEBA E2E
+
+1. Se automatizó el flujo de compra E2E: login, agregar productos, ver carrito, completar checkout y validar confirmación.
+2. Serenity BDD ofrece reportes ricos y legibles que facilitan analizar pasos y capturas.
+3. Se recomienda ejecutar con Chrome y WebDriverManager para evitar incompatibilidades de driver.
+4. Para integrarlo en CI/CD, agregar un job que ejecute `mvn test` y archive `target/site/serenity` como artefacto.
